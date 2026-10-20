@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Never commit data: this repo uses synthetic PDFs generated at run time.
+*.pdf
+*.csv
+*.xlsx
+*.db
+*.sqlite
+*.zip
+.env

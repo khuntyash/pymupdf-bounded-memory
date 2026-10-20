@@ -1,0 +1,5 @@
+# Not an installable package: copy bounded_pages.py into your project.
+# This file only configures pytest.
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
